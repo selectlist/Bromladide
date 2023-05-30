@@ -1,0 +1,9 @@
+.DS_Store 
+ node_modules 
+ .env 
+ .env.* 
+ !.env.example 
+ pnpm-lock.yaml 
+ yarn.lock 
+ package-lock.json 
+ docs/**/*.md

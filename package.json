@@ -1,0 +1,28 @@
+{
+	"name": "bromladide",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/selectlist/bromladide.git"
+	},
+	"author": "Select List",
+	"bugs": {
+		"url": "https://github.com/selectlist/bromladide/issues"
+	},
+	"homepage": "https://github.com/selectlist/bromladide#readme",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"discord.js": "^14.11.0",
+		"dotenv": "^16.0.3",
+		"node-fetch": "^2.6.7",
+		"pg": "^8.11.0",
+		"prettier": "^2.8.8",
+		"sequelize": "^6.31.1"
+	}
+}
