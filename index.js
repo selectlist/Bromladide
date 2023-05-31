@@ -118,10 +118,6 @@ client.on(Events.MessageCreate, async (message) => {
 
 // Discord Interaction Event
 client.on(Events.InteractionCreate, async (interaction) => {
-	// Block banned users
-	const bannedUsers = client.bannedUsers;
-	if (bannedUsers.includes(interaction.user.id)) return;
-
 	// Slash Command
 	if (interaction.isChatInputCommand()) {
 		const command = client.commands.get(interaction.commandName);
